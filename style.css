@@ -232,17 +232,15 @@ UIA-TENNIS-LOADER
   0%{
     transform: translate3d(0, calc(-1 * var(--_uia-tennis-loader-size) / 4), 0);
   }
-
   50%{
     transform: translate3d(calc(var(--_uia-tennis-loader-size) / 2), 0, 0);
   }
-
   100%{
     transform: translate3d(calc(var(--_uia-tennis-loader-size) - (2 * var(--_uia-tennis-racket-thickness)) - (var(--_uia-tennis-loader-ball-size) / 2)), calc(var(--_uia-tennis-loader-size) / 4), 0);
   }
 }
 @media (prefers-reduced-motion: reduce){
-  .uia-tennis-loader {
+  .uia-tennis-loader{
     --uia-tennis-loader-punch-animation-timing-function: 14s;
     --uia-tennis-loader-ball-animation-timing-function: 14s;
   }
