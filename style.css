@@ -322,17 +322,17 @@ UIA-FLASK-LOADER
 .uia-flask-loader__bubble:nth-child(4)::after{
   animation-delay: 3.5s;
 }
-@keyframes uia-flask-loader {
-  0% {
+@keyframes uia-flask-loader{
+  0%{
     transform: translate3d(-50%, 0, 0) scale(1);
     opacity: 1;
   }
-  85% {
-    transform: translate3d(-50%, calc(-1 * var(--_uia-flask-loader-size_default)), 0) scale(0);
+  85%{
+    transform: translate3d(-50%, calc(-1*var(--_uia-flask-loader-size_default)), 0) scale(0);
     opacity: 0;
   }
-  100% {
-    transform: translate3d(-50%, calc(-1 * var(--_uia-flask-loader-size_default)), 0) scale(0);
+  100%{
+    transform: translate3d(-50%, calc(-1*var(--_uia-flask-loader-size_default)), 0) scale(0);
     opacity: 1;
   }
 }
