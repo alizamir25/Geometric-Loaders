@@ -168,7 +168,7 @@ UIA-SQUARE-LOADER
 UIA-TENNIS-LOADER
 =====
 */
-.uia-tennis-loader {
+.uia-tennis-loader{
   --_uia-tennis-loader-size_default: 2.5rem;
   --_uia-tennis-loader-size: var(--uia-tennis-loader-size, var(--_uia-tennis-loader-size_default));
   --_uia-tennis-racket-thickness: var(--uia-tennis-racket-thickness, 3px);
@@ -181,15 +181,13 @@ UIA-TENNIS-LOADER
   position: relative;
 }
 .uia-tennis-loader::before,
-.uia-tennis-loader::after {
+.uia-tennis-loader::after{
   content: "";
   inline-size: var(--_uia-tennis-racket-thickness);
   block-size: var(--uia-tennis-racket-height, 50%);
   background-color: var(--uia-tennis-loader-punch-color, var(--_uia-tennis-loader-color));
-
   position: absolute;
   inset-block-start: 40%;
-
   animation-name: uia-tennis-loader-punch;
   animation-duration: var(--uia-tennis-loader-punch-animation-duration, var(--_uia-tennis-loader-animation-duration_default));
   animation-direction: var(--uia-tennis-loader-punch-animation-direction, alternate);
@@ -197,14 +195,14 @@ UIA-TENNIS-LOADER
   animation-timing-function: var(--uia-tennis-loader-punch-animation-timing-function, var(--_uia-tennis-loader-animation-timing-function_default));
   animation-iteration-count: var(--uia-tennis-loader-punch-animation-iteration-count, infinite);
 }
-.uia-tennis-loader::before {
+.uia-tennis-loader::before{
   inset-inline-start: 0;
 }
-.uia-tennis-loader::after {
+.uia-tennis-loader::after{
   inset-inline-end: 0;
   animation-delay: var(--uia-tennis-loader-punch-animation-delay, .1s);
 }
-@keyframes uia-tennis-loader-punch {
+@keyframes uia-tennis-loader-punch{
 
   0%{
     transform: translate3d(0, -50%, 0);
