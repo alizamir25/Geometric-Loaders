@@ -250,7 +250,7 @@ UIA-TENNIS-LOADER
 UIA-FLASK-LOADER
 =====
 */
-.uia-flask-loader {
+.uia-flask-loader{
   --_uia-flask-loader-size_default: 2rem;
   --_uia-flask-loader-color: var(--uia-flask-loader-color, #222);
   inline-size: var(--uia-flask-loader-size, var(--_uia-flask-loader-size_default));
@@ -262,7 +262,7 @@ UIA-FLASK-LOADER
   justify-items: center;
 }
 .uia-flask-loader::before,
-.uia-flask-loader::after {
+.uia-flask-loader::after{
   content: "";
   position: absolute;
   inset-block-end: 0;
@@ -277,9 +277,8 @@ UIA-FLASK-LOADER
   inline-size: 17%;
   block-size: 75%;
 }
-.uia-flask-loader__bubble {
+.uia-flask-loader__bubble{
   --_uia-flask-loader-bubble-size: var(--uia-flask-loader-bubble-size, 8px);
-  
   position: absolute;
   inset: 0 0 60%;
 }
