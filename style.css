@@ -37,7 +37,7 @@ UIA-LOADER
 UIA-CLIPPY-LOADER
 =====
 */
-.uia-clippy-loader {
+.uia-clippy-loader{
   --_uia-clippy-loader-size: var(--uia-clippy-loader-size, 2rem);
   --_uia-clippy-loader-animation-name: var(--uia-clippy-loader-animation-name);
   --_uia-clippy-loader-animation-duration: var(--uia-clippy-loader-animation-duration, 2s);
@@ -55,7 +55,7 @@ UIA-CLIPPY-LOADER
   animation-iteration-count: var(--_uia-clippy-loader-animation-iteration-count);
   position: relative;
 }
-.uia-clippy-loader::before {
+.uia-clippy-loader::before{
   content: "";
   position: absolute;
   inset: var(--_uia-clippy-loader-stroke);
@@ -66,18 +66,18 @@ UIA-CLIPPY-LOADER
   animation-iteration-count: var(--_uia-clippy-loader-animation-iteration-count);
 }
 [data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="1"], 
-[data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="1"]::before {
+[data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="1"]::before{
   --uia-clippy-loader-animation-name: uia-clippy-loader-1;
 }
 [data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="2"], 
-[data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="2"]::before {
+[data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="2"]::before{
   --uia-clippy-loader-animation-name: uia-clippy-loader-2;
 }
 [data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="3"], 
-[data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="3"]::before {
+[data-uia-clippy-loader-skin="1"][data-uia-clippy-loader-mod="3"]::before{
   --uia-clippy-loader-animation-name: uia-clippy-loader-3;
 }
-@keyframes uia-clippy-loader-1 {
+@keyframes uia-clippy-loader-1{
   0%, 30% {
     clip-path: polygon(0 15%, 0 0, 85% 0, 85% 0, 100% 0, 100% 85%, 100% 85%, 100% 100%, 15% 100%, 15% 100%, 0 100%, 0 15%);
   }
