@@ -294,20 +294,20 @@ UIA-FLASK-LOADER
   inset-block-end: 0;
   z-index: -1;
 }
-.uia-flask-loader__bubble::before {
+.uia-flask-loader__bubble::before{
   inset-inline-start: 48%;
 }
 
-.uia-flask-loader__bubble::after {
+.uia-flask-loader__bubble::after{
   inset-inline-start: 52%;
 }
-.uia-flask-loader__bubble:nth-child(1)::after {
+.uia-flask-loader__bubble:nth-child(1)::after{
   animation-delay: .5s;
 }
-.uia-flask-loader__bubble:nth-child(2)::before {
+.uia-flask-loader__bubble:nth-child(2)::before{
   animation-delay: .75s;
 }
-.uia-flask-loader__bubble:nth-child(2)::after {
+.uia-flask-loader__bubble:nth-child(2)::after{
   animation-delay: 1s;
 }
 .uia-flask-loader__bubble:nth-child(3)::before{
@@ -316,10 +316,10 @@ UIA-FLASK-LOADER
 .uia-flask-loader__bubble:nth-child(3)::after{
   animation-delay: 2.25s;
 }
-.uia-flask-loader__bubble:nth-child(4)::before {
+.uia-flask-loader__bubble:nth-child(4)::before{
   animation-delay: 2.75s;
 }
-.uia-flask-loader__bubble:nth-child(4)::after {
+.uia-flask-loader__bubble:nth-child(4)::after{
   animation-delay: 3.5s;
 }
 @keyframes uia-flask-loader {
