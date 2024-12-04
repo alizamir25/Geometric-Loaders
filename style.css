@@ -203,16 +203,14 @@ UIA-TENNIS-LOADER
   animation-delay: var(--uia-tennis-loader-punch-animation-delay, .1s);
 }
 @keyframes uia-tennis-loader-punch{
-
   0%{
     transform: translate3d(0, -50%, 0);
   }
-
   100%{
     transform: translate3d(0, 0, 0);
   }
 }
-.uia-tennis-loader__ball {
+.uia-tennis-loader__ball{
   --_uia-tennis-ball-size_default: 0.5rem;
   --_uia-tennis-loader-ball-size: var(--uia-tennis-loader-ball-size, var(--_uia-tennis-ball-size_default));
   inline-size: var(--_uia-tennis-loader-ball-size);
@@ -229,7 +227,7 @@ UIA-TENNIS-LOADER
   animation-timing-function: var(--uia-tennis-loader-ball-animation-timing-function, var(--_uia-tennis-loader-animation-timing-function_default));
   animation-iteration-count: var(--uia-tennis-loader-ball-animation-iteration-count, infinite);
 }
-@keyframes uia-tennis-loader-ball {
+@keyframes uia-tennis-loader-ball{
 
   0%{
     transform: translate3d(0, calc(-1 * var(--_uia-tennis-loader-size) / 4), 0);
