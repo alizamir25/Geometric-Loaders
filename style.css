@@ -341,41 +341,39 @@ UIA-FLASK-LOADER
 DEMO STYLES
 =====
 */
-:root {
+:root{
   --main-mode-color: #2e3444;
   --accent-mode-color: #e1e4e5;
-
   --uia-clippy-loader-background-color: var(--main-mode-color);
   --uia-clippy-loader-stroke-color: var(--accent-mode-color);
   --uia-square-loader-color: var(--accent-mode-color);
   --uia-tennis-loader-color: var(--accent-mode-color);
   --uia-flask-loader-color: var(--accent-mode-color);
 }
-body {
+body{
   margin: 0;
   background-color: var(--main-mode-color);
   color: var(--accent-mode-color);
 }
-.page {
+.page{
   box-sizing: border-box;
   min-block-size: 100dvh;
   padding: 3rem 2rem;
-
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
   gap: 3rem;
 }
-.page__loader {
+.page__loader{
   margin: auto;
   font-family: 'Cherry Bomb One', cursive;
   letter-spacing: 1px;
 }
-.page__flask {
+.page__flask{
   --uia-loader-canvas-size: 5rem;
   --uia-flask-loader-size: 4rem;
 }
-@media (width > 1200px) {
-  .page {
+@media (width>1200px){
+  .page{
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   }
 }
