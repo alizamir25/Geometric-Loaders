@@ -112,25 +112,22 @@ UIA-CLIPPY-LOADER
 UIA-SQUARE-LOADER
 =====
 */
-.uia-square-loader {
+.uia-square-loader{
   --_uia-square-loader-size_default: 2rem;
   --_uia-square-loader-little-size_default: 20%;
   --_uia-square-loader-color: var(--uia-square-loader-color, #222);
-
   box-sizing: border-box;
   inline-size: var(--uia-square-loader-size, var(--_uia-square-loader-size_default));
   block-size: var(--uia-square-loader-size, var(--_uia-square-loader-size_default));
   border: var(--uia-square-loader-border-thickness, 2px) var(--uia-square-loader-border-style, solid) var(--uia-square-loader-border-color, var(--_uia-square-loader-color));
-
   display: grid;
   place-items: center;
 }
-.uia-square-loader::before {
+.uia-square-loader::before{
   content: "";
   inline-size: var(--_uia-square-loader-little-size, var(--_uia-square-loader-little-size_default));
   height: var(--_uia-square-loader-little-size, var(--_uia-square-loader-little-size_default));
   background-color: var(--uia-square-loader-little-background-color, var(--_uia-square-loader-color));
-
   animation-name: uia-square-loader;
   animation-duration: var(--uia-square-loader-animation-duration, 4s);
   animation-direction: var(--uia-square-loader-animation-direction, alternate);
@@ -138,7 +135,7 @@ UIA-SQUARE-LOADER
   animation-timing-function: var(--uia-square-loader-animation-timing-function, ease-out);
   animation-iteration-count: var(--uia-square-loader-animation-iteration-count, infinite);
 }
-@keyframes uia-square-loader {
+@keyframes uia-square-loader{
 
   0%, 10%, 90%, 100%{
     transform: translate3d(0, 0, 0) scale(0);
