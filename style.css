@@ -78,40 +78,34 @@ UIA-CLIPPY-LOADER
   --uia-clippy-loader-animation-name: uia-clippy-loader-3;
 }
 @keyframes uia-clippy-loader-1{
-  0%, 30% {
+  0%, 30%{
     clip-path: polygon(0 15%, 0 0, 85% 0, 85% 0, 100% 0, 100% 85%, 100% 85%, 100% 100%, 15% 100%, 15% 100%, 0 100%, 0 15%);
   }
-
-  70%, 100% {
+  70%, 100%{
     clip-path: polygon(0 0, 85% 0, 85% 0, 100% 0, 100% 85%, 100% 85%, 100% 100%, 15% 100%, 15% 100%, 0 100%, 0 15%, 0 15%);
   }
 }
-@keyframes uia-clippy-loader-2 {
-  0%, 20% {
+@keyframes uia-clippy-loader-2{
+  0%, 20%{
     clip-path: polygon(0% 0, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0 50%);
   }
-
-  40%, 60% {
+  40%, 60%{
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0% 25%);
   }
-
-  80%, 100% {
+  80%, 100%{
     clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
   }
 }
-@keyframes uia-clippy-loader-3 {
-  0%, 20% {
+@keyframes uia-clippy-loader-3{
+  0%, 20%{
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
   }
-
-  40%, 60% {
+  40%, 60%{
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   }
-
-  80%, 100% {
+  80%, 100%{
     clip-path: polygon(100% 0%, 100% 100%, 0 100%, 0% 0%);
   }
-
 }
 /*
 =====
